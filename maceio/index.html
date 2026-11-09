@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lounge Residence · Vista mar em Cruz das Almas, Maceió</title>
+<meta name="description" content="Quarto e sala de 38 m² no último andar, nascente e de frente pro mar, em Cruz das Almas, Maceió. Suíte, 1 vaga, academia, coworking e portaria 24h.">
+<meta name="theme-color" content="#eef1ef">
+<meta name="referrer" content="no-referrer">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Vista mar em Cruz das Almas · Maceió">
+<meta property="og:description" content="Último andar, nascente, de frente pro mar. 38 m², suíte e 1 vaga no Lounge Residence.">
+<meta property="og:image" content="https://img.olx.com.br/images/37/371688187822688.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#eef1ef; --papel2:#dfe6e3; --branco:#fafbfa;
+  --tinta:#13201f; --sub:#5a6967; --fio:rgba(19,32,31,.12); --fio2:rgba(19,32,31,.28);
+  --mar:#1f6f78; --mar2:#2f8f8f; --areia:#c9a77a;
+  --fd:"Instrument Serif",Georgia,serif;
+  --fb:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:20px; --max:1120px; --hd:56px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--papel);color:var(--tinta);font-family:var(--fb);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a,button{font:inherit;color:inherit;text-decoration:none;border:0;background:none;cursor:pointer}
+img{display:block;max-width:100%}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.lbl{font-size:11.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--sub)}
+h1,h2,h3{font-family:var(--fd);font-weight:400;letter-spacing:-.015em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--mar)}
+.num{font-variant-numeric:tabular-nums}
+
+#hd{position:fixed;inset:0 0 auto 0;z-index:20;background:rgba(238,241,239,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--fio)}
+.hrow{display:flex;align-items:center;justify-content:space-between;height:var(--hd)}
+.brand b{font-family:var(--fd);font-weight:400;font-size:22px}
+.brand span{font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--sub);margin-left:8px}
+.btn{height:40px;padding:0 16px;border-radius:20px;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600}
+.btn.out{box-shadow:inset 0 0 0 1px var(--fio2)}
+.btn.fill{background:var(--tinta);color:var(--branco)}
+
+/* abertura */
+#hero{padding-top:calc(var(--hd) + 14px)}
+.cmp{position:relative;aspect-ratio:16/10;max-height:74vh;width:100%;overflow:hidden;background:var(--papel2);touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.cmp .dep{clip-path:inset(0 0 0 var(--r,50%))}
+.cmp .bar{position:absolute;top:0;bottom:0;left:var(--r,50%);width:2px;margin-left:-1px;background:#fff;box-shadow:0 0 14px rgba(0,0,0,.35)}
+.cmp .knob{position:absolute;top:50%;left:var(--r,50%);width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:22px;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.25);display:grid;place-items:center;font-size:15px;font-weight:600}
+.cmp .tag{position:absolute;bottom:12px;height:26px;padding:0 10px;display:flex;align-items:center;font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:rgba(250,251,250,.92)}
+.cmp .tag.a{left:12px}.cmp .tag.d{right:12px}
+.intro{display:grid;gap:18px;padding:26px 0 8px}
+.intro .lbl{color:var(--mar)}
+.intro h1{font-size:clamp(40px,8.5vw,84px);line-height:.95}
+.intro p{font-size:17px;color:var(--sub);max-width:560px}
+.facts{display:flex;flex-wrap:wrap;gap:26px 34px;padding-top:6px}
+.facts div b{display:block;font-family:var(--fd);font-weight:400;font-size:38px;line-height:1}
+.facts div span{font-size:12.5px;color:var(--sub)}
+@media(min-width:900px){.intro{grid-template-columns:1.3fr 1fr;align-items:end}}
+
+.sec{padding:72px 0 0}
+.sec h2{font-size:clamp(32px,6vw,56px);line-height:1;margin:10px 0 14px}
+.sec .lead{color:var(--sub);max-width:600px;font-size:16.5px}
+
+/* vista */
+.vista{display:grid;gap:10px;margin-top:22px}
+.vista img{width:100%;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in}
+@media(min-width:760px){.vista{grid-template-columns:1.4fr 1fr}.vista img{aspect-ratio:auto;height:440px}}
+
+/* antes e depois */
+.tabs{display:flex;gap:8px;margin:22px 0 12px;flex-wrap:wrap}
+.tabs button{height:36px;padding:0 15px;border-radius:18px;font-size:14px;font-weight:600;box-shadow:inset 0 0 0 1px var(--fio2)}
+.tabs button[aria-pressed=true]{background:var(--tinta);color:var(--branco);box-shadow:none}
+.note{font-size:12.5px;color:var(--sub);margin-top:10px}
+
+/* galeria */
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:22px}
+.gal figure{position:relative;cursor:zoom-in;overflow:hidden;background:var(--papel2)}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .5s}
+.gal figure:hover img{transform:scale(1.03)}
+.gal figcaption{position:absolute;left:8px;bottom:8px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:rgba(250,251,250,.92);padding:4px 8px}
+@media(min-width:760px){.gal{grid-template-columns:repeat(3,1fr)}}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chips span{font-size:13.5px;padding:7px 12px;border-radius:16px;background:var(--branco);box-shadow:inset 0 0 0 1px var(--fio)}
+
+/* valores */
+.price{display:grid;gap:14px;margin-top:22px;background:var(--branco);padding:26px;box-shadow:inset 0 0 0 1px var(--fio)}
+.price .big{font-family:var(--fd);font-size:clamp(46px,9vw,72px);line-height:1}
+.price s{color:var(--sub);font-size:15px}
+.price .rows{display:grid;grid-template-columns:1fr auto;gap:8px 20px;font-size:15px;border-top:1px solid var(--fio);padding-top:14px}
+.price .rows span:nth-child(even){font-weight:600;text-align:right}
+@media(min-width:760px){.price{grid-template-columns:1fr 1fr;align-items:end}}
+
+/* bairro */
+.bairro{display:grid;gap:10px;margin-top:22px}
+.bairro li{list-style:none;display:flex;gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--fio);font-size:16px}
+.bairro li b{font-family:var(--fd);font-weight:400;font-size:22px;color:var(--mar);min-width:28px}
+
+/* contato */
+#contato{margin-top:80px;background:var(--tinta);color:var(--branco);padding:64px 0 calc(64px + env(safe-area-inset-bottom))}
+#contato h2{font-size:clamp(36px,7vw,64px);line-height:1}
+#contato h2 em{color:var(--areia)}
+#contato p{color:rgba(250,251,250,.7);max-width:520px;margin:14px 0 24px}
+#contato .btn.fill{background:var(--branco);color:var(--tinta)}
+#contato .btn.out{box-shadow:inset 0 0 0 1px rgba(250,251,250,.35)}
+.cbtns{display:flex;gap:10px;flex-wrap:wrap}
+.credit{margin-top:46px;padding-top:18px;border-top:1px solid rgba(250,251,250,.15);font-size:12.5px;color:rgba(250,251,250,.55)}
+.credit a{text-decoration:underline}
+
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:50;background:rgba(10,16,16,.94);display:none;align-items:center;justify-content:center}
+#lb.on{display:flex}
+#lb img{max-width:94vw;max-height:86vh;object-fit:contain}
+#lb button{position:absolute;color:#fff;font-size:28px;width:52px;height:52px}
+#lbX{top:12px;right:12px}#lbP{left:6px;top:50%;margin-top:-26px}#lbN{right:6px;top:50%;margin-top:-26px}
+</style>
+</head>
+<body>
+
+<header id="hd"><div class="wrap hrow">
+  <a class="brand" href="#"><b>Lounge Residence</b><span>MACEIÓ</span></a>
+  <a class="btn out" href="#contato">Quero visitar</a>
+</div></header>
+
+<main>
+<section id="hero" class="wrap" aria-label="A sala vazia e decorada">
+  <div class="cmp" id="cmpHero" style="--r:50%">
+    <img src="https://img.olx.com.br/images/33/337600424268208.jpg" alt="Sala do apartamento, vazia, com janela para o mar" referrerpolicy="no-referrer">
+    <img class="dep" src="https://img.olx.com.br/images/41/418609548951355.jpg" alt="A mesma sala decorada, com sofá e vista para o mar" referrerpolicy="no-referrer">
+    <span class="tag a">Hoje</span><span class="tag d">Decorado · ilustração</span>
+    <div class="bar"></div><div class="knob" aria-hidden="true">⇆</div>
+  </div>
+  <div class="intro">
+    <div>
+      <span class="lbl">À venda · Cruz das Almas, Maceió</span>
+      <h1>Acordar de frente <em>pro mar</em>, todo dia.</h1>
+    </div>
+    <p>Quarto e sala no <b>último andar</b>, nascente, com vista livre para o mar de Cruz das Almas. Pronto para morar ou para investir na região que mais cresce em Maceió.</p>
+  </div>
+  <div class="facts num">
+    <div><b>38 m²</b><span>área útil</span></div>
+    <div><b>1</b><span>suíte</span></div>
+    <div><b>1</b><span>vaga</span></div>
+    <div><b>Último</b><span>andar, nascente</span></div>
+  </div>
+</section>
+
+<section class="sec wrap" id="vista">
+  <span class="lbl">A vista</span>
+  <h2>O azul entra pela <em>janela</em>.</h2>
+  <p class="lead">Posição leste: sol da manhã e o mar de Cruz das Almas emoldurado da sala e do quarto.</p>
+  <div class="vista">
+    <img data-g="0" src="https://img.olx.com.br/images/37/371688187822688.jpg" alt="Vista do mar e da orla pela janela" referrerpolicy="no-referrer" loading="lazy">
+    <img data-g="1" src="https://img.olx.com.br/images/29/296616427909085.jpg" alt="Vista do mar pela janela do apartamento" referrerpolicy="no-referrer" loading="lazy">
+  </div>
+</section>
+
+<section class="sec wrap" id="ambientes">
+  <span class="lbl">Ambientes</span>
+  <h2>Do vazio ao <em>seu jeito</em>.</h2>
+  <p class="lead">Arraste a linha para comparar cada ambiente como está hoje e uma sugestão de decoração.</p>
+  <div class="tabs" id="tabs">
+    <button aria-pressed="true" data-i="0">Sala</button>
+    <button aria-pressed="false" data-i="1">Cozinha</button>
+    <button aria-pressed="false" data-i="2">Quarto</button>
+  </div>
+  <div class="cmp" id="cmpAmb" style="--r:50%">
+    <img id="ambA" src="https://img.olx.com.br/images/33/337600424268208.jpg" alt="Ambiente hoje" referrerpolicy="no-referrer" loading="lazy">
+    <img id="ambD" class="dep" src="https://img.olx.com.br/images/41/418609548951355.jpg" alt="Ambiente decorado" referrerpolicy="no-referrer" loading="lazy">
+    <span class="tag a">Hoje</span><span class="tag d">Decorado</span>
+    <div class="bar"></div><div class="knob" aria-hidden="true">⇆</div>
+  </div>
+  <p class="note">As imagens decoradas são ilustrações de como o apartamento pode ficar. As fotos "Hoje" mostram o imóvel real.</p>
+</section>
+
+<section class="sec wrap" id="predio">
+  <span class="lbl">O prédio</span>
+  <h2>Lounge Residence, por <em>Conenge</em>.</h2>
+  <p class="lead">Empreendimento moderno com estrutura de lazer e serviços para o dia a dia.</p>
+  <div class="gal">
+    <figure data-g="2"><img src="https://img.olx.com.br/images/33/337609905077905.jpg" alt="Fachada do edifício" referrerpolicy="no-referrer" loading="lazy"><figcaption>Fachada</figcaption></figure>
+    <figure data-g="3"><img src="https://img.olx.com.br/images/35/356649660099171.jpg" alt="Academia" referrerpolicy="no-referrer" loading="lazy"><figcaption>Academia</figcaption></figure>
+    <figure data-g="4"><img src="https://img.olx.com.br/images/28/286664545613089.jpg" alt="Coworking" referrerpolicy="no-referrer" loading="lazy"><figcaption>Coworking</figcaption></figure>
+    <figure data-g="5"><img src="https://img.olx.com.br/images/11/114675780704586.jpg" alt="Salão de festas" referrerpolicy="no-referrer" loading="lazy"><figcaption>Salão de festas</figcaption></figure>
+    <figure data-g="6"><img src="https://img.olx.com.br/images/26/261605185073526.jpg" alt="Hall dos elevadores" referrerpolicy="no-referrer" loading="lazy"><figcaption>Hall</figcaption></figure>
+    <figure data-g="7"><img src="https://img.olx.com.br/images/20/205651185688146.jpg" alt="Lavanderia" referrerpolicy="no-referrer" loading="lazy"><figcaption>Lavanderia</figcaption></figure>
+  </div>
+  <div class="chips">
+    <span>Portaria 24 h</span><span>2 elevadores</span><span>Academia</span><span>Coworking</span><span>Salão de festas</span><span>Lavanderia</span><span>Bicicletário</span><span>Aceita pet</span>
+  </div>
+</section>
+
+<section class="sec wrap" id="valores">
+  <span class="lbl">Valores</span>
+  <h2>Condições para <em>morar ou investir</em>.</h2>
+  <div class="price num">
+    <div>
+      <s>R$ 700.000</s>
+      <div class="big">R$ 600.000</div>
+      <p class="lead" style="margin-top:8px">Aceita financiamento. Faça sua proposta.</p>
+    </div>
+    <div class="rows">
+      <span>Condomínio</span><span>R$ 400/mês</span>
+      <span>Inclui</span><span>gás e água</span>
+      <span>IPTU</span><span>R$ 600</span>
+      <span>Área útil</span><span>38 m²</span>
+    </div>
+  </div>
+</section>
+
+<section class="sec wrap" id="bairro">
+  <span class="lbl">O bairro</span>
+  <h2>Cruz das Almas, <em>perto de tudo</em>.</h2>
+  <ul class="bairro">
+    <li><b>01</b>De frente para o mar de Cruz das Almas</li>
+    <li><b>02</b>Perto de universidades</li>
+    <li><b>03</b>Supermercados, shoppings e restaurantes por perto</li>
+    <li><b>04</b>Uma das regiões que mais crescem em Maceió</li>
+  </ul>
+</section>
+</main>
+
+<section id="contato">
+  <div class="wrap">
+    <span class="lbl" style="color:var(--areia)">Visite</span>
+    <h2>Venha ver a vista <em>de perto</em>.</h2>
+    <p>Fale direto com o proprietário para agendar uma visita ou tirar dúvidas sobre financiamento.</p>
+    <div class="cbtns">
+      <a class="btn fill" href="https://al.olx.com.br/alagoas/imoveis/apartamento-quarto-e-sala-vista-mar-em-maceio-oportunidade-para-morar-ou-investir-1516056980" target="_blank" rel="noopener">Falar com o proprietário</a>
+      <a class="btn out" href="https://www.google.com/maps/search/?api=1&query=Cruz+das+Almas,+Macei%C3%B3+-+AL" target="_blank" rel="noopener">Ver no mapa</a>
+    </div>
+    <div class="credit">Prévia criada por João · páginas para imóveis e casas de temporada · <a href="https://wa.me/5531999131903" target="_blank" rel="noopener">WhatsApp (31) 99913-1903</a></div>
+  </div>
+</section>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <img id="lbImg" alt="" referrerpolicy="no-referrer">
+  <button id="lbX" aria-label="Fechar">×</button>
+  <button id="lbP" aria-label="Anterior">‹</button>
+  <button id="lbN" aria-label="Próxima">›</button>
+</div>
+
+<script>
+// comparador: arrastar ou tocar move a linha
+function cmp(el){
+  const set=x=>{const r=el.getBoundingClientRect();const p=Math.max(0,Math.min(100,(x-r.left)/r.width*100));el.style.setProperty('--r',p+'%')};
+  let on=false;
+  el.addEventListener('pointerdown',e=>{on=true;set(e.clientX);el.setPointerCapture(e.pointerId)});
+  el.addEventListener('pointermove',e=>{if(on)set(e.clientX)});
+  el.addEventListener('pointerup',()=>on=false);
+  el.addEventListener('pointercancel',()=>on=false);
+}
+cmp(document.getElementById('cmpHero'));cmp(document.getElementById('cmpAmb'));
+
+// abertura: a linha passeia uma vez para mostrar que dá para arrastar
+(function(){const el=document.getElementById('cmpHero');let t0=null;
+  function step(t){if(!t0)t0=t;const k=(t-t0)/2400;if(k>1){el.style.setProperty('--r','50%');return}
+    el.style.setProperty('--r',(50+38*Math.sin(k*Math.PI*2))+'%');requestAnimationFrame(step)}
+  setTimeout(()=>requestAnimationFrame(step),700)})();
+
+// ambientes
+const AMB=[
+  ['https://img.olx.com.br/images/33/337600424268208.jpg','https://img.olx.com.br/images/41/418609548951355.jpg'],
+  ['https://img.olx.com.br/images/38/389694069070470.jpg','https://img.olx.com.br/images/44/449677301635656.jpg'],
+  ['https://img.olx.com.br/images/32/320697423426983.jpg','https://img.olx.com.br/images/46/469658188205199.jpg']
+];
+document.getElementById('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  document.querySelectorAll('#tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  const [a,d]=AMB[+b.dataset.i];document.getElementById('ambA').src=a;document.getElementById('ambD').src=d;
+  document.getElementById('cmpAmb').style.setProperty('--r','50%')});
+
+// galeria ampliada
+const G=[...document.querySelectorAll('[data-g]')].map(n=>(n.tagName==='IMG'?n:n.querySelector('img')).src);
+const lb=document.getElementById('lb'),li=document.getElementById('lbImg');let gi=0;
+const show=i=>{gi=(i+G.length)%G.length;li.src=G[gi];lb.classList.add('on')};
+document.querySelectorAll('[data-g]').forEach(n=>n.addEventListener('click',()=>show(+n.dataset.g)));
+document.getElementById('lbX').onclick=()=>lb.classList.remove('on');
+document.getElementById('lbP').onclick=()=>show(gi-1);
+document.getElementById('lbN').onclick=()=>show(gi+1);
+lb.addEventListener('click',e=>{if(e.target===lb)lb.classList.remove('on')});
+addEventListener('keydown',e=>{if(!lb.classList.contains('on'))return;if(e.key==='Escape')lb.classList.remove('on');if(e.key==='ArrowLeft')show(gi-1);if(e.key==='ArrowRight')show(gi+1)});
+</script>
+</body>
+</html>
